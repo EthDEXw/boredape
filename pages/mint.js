@@ -265,7 +265,7 @@ export default function Mint() {
               <div
                 className={`border ${
                   status.success ? 'border-green-500' : 'border-brand-pink-400 '
-                } rounded-md text-start h-full px-4 py-4 w-full mx-auto mt-8 md:mt-4"`}
+                } rounded-md text-start h-full px-4 py-4 w-full mx-auto mt-8 md:mt-6"`}
               >
                 <p className="flex flex-col space-y-2 text-white text-sm md:text-base break-words ...">
                   {status.message}
@@ -282,7 +282,7 @@ export default function Mint() {
                 href={`https://cronoscan.com/address/${config.contractAddress}#readContract`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 mt-4"
+                className="text-gray-400 mt-6"
               >
                 <span className="break-all ...">{config.contractAddress}</span>
               </a>
